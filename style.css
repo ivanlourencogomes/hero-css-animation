@@ -27,7 +27,7 @@ Main Styles - Mobile First
 **********************/
 header {
     position: relative;
-    background-color: #04275c;
+    background-color: #000;
     overflow: hidden;
 }
 
@@ -38,7 +38,13 @@ left: 0;
 width: 100%;
 height: 100%;
 z-index: 1;
+opacity: 0.2;
 }
+
+.hero-bg video {
+    min-width: 100%;
+    min-height: 100%;
+  }
 
 header .hero-content {
     z-index: 10;
