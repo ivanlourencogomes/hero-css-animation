@@ -78,9 +78,19 @@ header nav.open .menu {
     height: 100vh;
 } 
 
+header nav .menu li {
+    cursor: pointer;
+    
+} 
+
 header nav.open .menu li {
+    cursor: pointer;
     font-size: 24px;
     margin-bottom: 32px;
+} 
+
+header nav .menu-icon {
+    cursor: pointer;
 } 
 
 header nav.open .menu-icon {
