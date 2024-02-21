@@ -27,8 +27,10 @@ Main Styles - Mobile First
 **********************/
 header {
     position: relative;
-    background-color: #04275c;
+    /* background-color: #04275c; */
     overflow: hidden;
+    background-image: url('https://cdn.sanity.io/images/tlr8oxjg/production/f2fb25c9cafe100e220f0caf70f92cf19a6ec3dc-1456x816.png?w=3840&q=80&fit=clip&auto=format');
+    background-size: cover;
 }
 
 header .hero-bg {
@@ -37,7 +39,8 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-opacity: 0.4;
+background-color: rgba(0,0,0,0.6);
+z-index: 1;
 }
 
 header .hero-content {
@@ -47,7 +50,6 @@ header .hero-content {
 
 header .hero-bg {
     z-index: 1;
-    background-color: rgba(0,34,34,0.3);
 }
 
 header .top-bar {
