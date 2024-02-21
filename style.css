@@ -25,29 +25,13 @@ ul {
 /* ******************* 
 Main Styles - Mobile First
 **********************/
-header {
-    position: relative;
-    background-color: #12263A;
-    overflow: hidden;
-}
 
-header .hero-bg {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 1;
-}
 
-header .hero-content {
-    z-index: 10;
-    position: relative;
-}
 
 header .top-bar {
     color: white;
     height: 70px;
+    background-color: #12263A;
 }
 
 header .top-bar .container {
@@ -79,7 +63,6 @@ header nav .menu li {
 } 
 
 header nav.open .menu li {
-    cursor: pointer;
     font-size: 24px;
     margin-bottom: 32px;
 } 
@@ -115,6 +98,7 @@ header .logo {
 header .hero {
     padding: 60px 0;
     color: white;
+    background-color: #12263A;
 }
 
 header .hero .hero-image {
@@ -171,7 +155,7 @@ Tablet Styles
         display: flex;
     } 
 
-    header ul li {
+    header .menu li {
         margin-left: 24px;
         font-size: 18px;
     } 
